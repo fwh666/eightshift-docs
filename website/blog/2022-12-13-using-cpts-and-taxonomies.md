@@ -2,7 +2,7 @@
 title: Using Custom Post Types and Taxonomies
 description: How to register and use custom post types and taxonomies with Eightshift Dev Kit
 slug: using-cpts-and-taxonomies
-authors: obradovic
+authors: marvin
 date: 2022-12-13
 tags: [eightshift, boilerplate, cpt, custom post type, taxonomy, taxonomies, terms]
 hide_table_of_contents: false

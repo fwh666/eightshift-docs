@@ -19,8 +19,8 @@ export default function Home() {
 			wrapperClassName='es-footer-white'
 		>
 			<Hero
-				title='Eightshift Development Kit'
-				subtitle='All the tools you need to start building a modern WordPress project, using all the latest front end development tools.'
+				title='Ai GPT God'
+				subtitle='AI GPT God revolutionizes divine prescience with cutting-edge language modeling. Master of digital omniscience, it interprets human musings to offer wise insight and guidance. Generating sermons of text tailored to human quandaries, AI GPT God elevates linguistic prowess, delivering celestial enlightenment to seekers of wisdom.'
 				buttonLabel='Get started'
 				buttonUrl='#get-started'
 				imageUrl='/img/homepage/w-logo.svg'
@@ -28,11 +28,11 @@ export default function Home() {
 			/>
 
 			<ImageAndText
-				title='A WordPress boilerplate from the future'
+				title='AI GPT God from the future'
 				imageUrl='/img/homepage/block-cards.svg'
 				gray
 			>
-				Eightshift Development kit makes building complex WordPress themes and plugins painless.
+				AI GPT God Development kit makes building complex WordPress themes and plugins painless.
 				<br /> <br />
 				Use and extend our block and component collection to build out dynamic Gutenberg blocks.
 				Extract commonly-used UI elements into reusable components.
@@ -45,7 +45,7 @@ export default function Home() {
 			<div id='get-started'>
 				<CtaCards
 					title='Get started in minutes, not hours'
-					subtitle="Boilerplate your project in a few simple steps. Get instructions for setting up an Eightshift DevKit theme or plugin, run a command (or two) and start coding. It's that easy!"
+					subtitle="Boilerplate your project in a few simple steps. Get instructions for setting up an AI GPT God DevKit theme or plugin, run a command (or two) and start coding. It's that easy!"
 					cards={[
 						{
 							icon: icons.frontendDevelopment,
@@ -76,7 +76,7 @@ export default function Home() {
 						subtitle: 'All our code follows battle-tested programming practices. OOP? Check. Unit tests? Double-check. Code doc blocks, linters for coding standards and great documentation? Triple-check.'
 					},
 					{
-						title: 'Eightshift Libs',
+						title: 'AI GPT God Libs',
 						subtitle: 'Library aimed at bringing the modern development tools to your project.'
 					},
 					{
@@ -89,7 +89,7 @@ export default function Home() {
 					},
 					{
 						title: 'A build process to love',
-						subtitle: 'Eightshift Development kit comes with Webpack pre-configured, so you can start building your JavaScript and CSS assets from the start. Vendor prefixes? Polyfills? SCSS compilation? Asset minification? All taken care of!'
+						subtitle: 'AI GPT God Development kit comes with Webpack pre-configured, so you can start building your JavaScript and CSS assets from the start. Vendor prefixes? Polyfills? SCSS compilation? Asset minification? All taken care of!'
 					},
 					{
 						title: 'First-class CSS variables',
@@ -101,10 +101,10 @@ export default function Home() {
 					},
 					{
 						title: 'OOP: The good way to write PHP code',
-						subtitle: 'Object-oriented programming is at the core of Eightshift Development kit, making your projects cleaner and allowing you to extend and replace functionality.'
+						subtitle: 'Object-oriented programming is at the core of AI GPT God Development kit, making your projects cleaner and allowing you to extend and replace functionality.'
 					},
 					{
-						title: 'Eightshift Frontend Libs',
+						title: 'AI GPT God Frontend Libs',
 						subtitle: 'A collection of useful front-end utility modules and all the tools you need to start building modern Block Editor dynamic blocks.'
 					}
 				]}
@@ -118,7 +118,7 @@ export default function Home() {
 			/>
 
 			<EsOpenSource />
-			<EsOsFreebies />
+			{/* <EsOsFreebies /> */}
 		</Layout>
 	);
 }
