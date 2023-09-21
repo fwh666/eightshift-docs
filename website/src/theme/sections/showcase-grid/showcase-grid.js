@@ -16,7 +16,6 @@ export default function ShowcaseGrid(props) {
 	const headingSubtitle = privateType ? "See all the awesome websites built by Infinum's WordPress team." : 'See the awesome websites people are building with Eightshift Boilerplate.';
 	const ctaTitle = privateType ? "Let's get in touch" : (<span>Want to add your <br /> project to the list?</span>);
 	const ctaSubtitle = privateType ? 'Contact us' : 'Open an issue on GitHub';
-	const ctaUrl = privateType ? 'https://infinum.com/contact/' : 'https://github.com/infinum/eightshift-docs/issues';
 
 	const privateData = [
 		{
@@ -70,12 +69,6 @@ export default function ShowcaseGrid(props) {
 	];
 
 	const publicData = [
-		{
-			image: useBaseUrl('img/showcase/infinum.webp'),
-			label: 'Infinum Web',
-			desc: 'An independent design and development agency with offices in the US and Europe. We create beautiful apps people love to use.',
-			link: 'https://infinum.com/',
-		},
 		{
 			image: useBaseUrl('img/showcase/solplanet.webp'),
 			label: 'Solplanet',
@@ -239,7 +232,6 @@ export default function ShowcaseGrid(props) {
 			<CtaImageButton
 				title={ctaTitle}
 				buttonLabel={ctaSubtitle}
-				buttonUrl={ctaUrl}
 				imageUrl='/img/showcase/cta.svg'
 			/>
 

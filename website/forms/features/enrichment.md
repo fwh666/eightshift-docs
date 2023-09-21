@@ -14,9 +14,6 @@ With this feature, users can visit your form and leave without submitting it. Yo
 By providing a parameters map in settings, forms can read users `cookies` and `URL` parameters and store that data in the users `localStorage`. This data is updated every time the user lands on any pages containing the forms. 
 
 For example, if the user first time lands on this page:
-```
- https://infinum.com/?utm_content=test
-```
 
 and you have provided the corresponding parameter mapping in the settings. Forms will store the GET parameters in the `local storage` and use it to prefill the form fields.
 

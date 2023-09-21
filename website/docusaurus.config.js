@@ -1,13 +1,14 @@
 const codeTheme = require('prism-react-renderer/themes/dracula');
 
 module.exports = {
-	title: 'Eightshift Development kit',
-	tagline: 'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
-	url: 'https://eightshift.com',
+	title: 'AI GPT God',
+	// todo-fwh-描述定制
+	tagline: 'AI GPT God revolutionizes divine prescience with cutting-edge language modeling. Master of digital omniscience, it interprets human musings to offer wise insight and guidance. Generating sermons of text tailored to human quandaries, AI GPT God elevates linguistic prowess, delivering celestial enlightenment to seekers of wisdom.',
+	url: 'https://aigptgod.com',
 	baseUrl: '/',
 	favicon: '/img/favicon.png',
-	organizationName: 'infinum',
-	projectName: 'eightshift-docs',
+	organizationName: 'aigptgod',
+	projectName: 'aigptgod',
 	staticDirectories: ['static'],
 	scripts: [
 		{
@@ -19,8 +20,10 @@ module.exports = {
 	themeConfig: {
 		navbar: {
 			logo: {
-				alt: 'Eightshift DevKit Logo',
-				src: '/img/logo.svg',
+				alt: 'Ai GPT God Logo',
+				// src: '/img/logo.svg',
+				// src: '/img/ideogram.jpeg',
+				src: '/img/acya7-riu3s.svg',
 			},
 			items: [
 				{
@@ -35,72 +38,74 @@ module.exports = {
 					label: 'Forms',
 					position: 'right',
 				},
-				{
-					to: '/storybook/',
-					activeBasePath: 'storybook',
-					label: 'Storybook',
-					position: 'right',
-				},
-				{
-					to: '/sass',
-					activeBasePath: 'sass',
-					label: 'SCSS',
-					position: 'right',
-				},
+				// {
+				// 	to: '/storybook/',
+				// 	activeBasePath: 'storybook',
+				// 	label: 'Storybook',
+				// 	position: 'right',
+				// },
+				// {
+				// 	to: '/sass',
+				// 	activeBasePath: 'sass',
+				// 	label: 'SCSS',
+				// 	position: 'right',
+				// },
 				{
 					to: '/blog',
 					activeBasePath: 'blog',
 					label: 'Blog',
 					position: 'right',
 				},
-				{
-					to: '/showcase',
-					activeBasePath: 'showcase',
-					label: 'Showcase',
-					position: 'right',
-				},
+				// {
+				// 	to: '/showcase',
+				// 	activeBasePath: 'showcase',
+				// 	label: 'Showcase',
+				// 	position: 'right',
+				// },
 			],
 		},
 		footer: {
 			links: [
 				{
 					title: 'Community',
+					//todo-fwh-账号注册变更
 					items: [
 						{
 							label: 'Facebook',
-							href: 'https://facebook.com/infinumcom',
+							href: 'https://facebook.com/marvin',
 							icon: 'facebook',
 						},
 						{
 							label: 'Instagram',
-							href: 'https://instagram.com/infinumcom/',
+							href: 'https://instagram.com/marvin/',
 							icon: 'instagram',
 						},
 						{
 							label: 'Twitter',
-							href: 'https://twitter.com/infinum',
+							href: 'https://twitter.com/marvin',
 							icon: 'twitter',
 						},
 						{
 							label: 'Clutch',
-							href: 'https://clutch.co/profile/infinum',
+							href: 'https://clutch.co/profile/marvin',
 							icon: 'clutch',
 						},
 						{
 							label: 'Dribbble',
-							href: 'https://dribbble.com/infinum',
+							href: 'https://dribbble.com/marvin',
 							icon: 'dribbble',
 						},
 						{
 							label: 'LinkedIn',
-							href: 'https://linkedin.com/company/infinum/',
+							href: 'https://linkedin.com/company/marvin/',
 							icon: 'linkedin',
 						},
 					],
 				},
 			],
-			copyright: 'Made with ❤️ by Infinum team.',
+			copyright: 'Made with ❤️ by Marvin team.',
 		},
+		// todo-fwh-申请账号搜索
 		algolia: {
 			appId: 'CWB1S6U3C4',
 			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
@@ -124,6 +129,7 @@ module.exports = {
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 				},
+				// todo-fwh-谷歌统计
 				gtag: {
 					trackingID: 'GTM-P5GG5DH',
 					anonymizeIP: true,
@@ -134,6 +140,7 @@ module.exports = {
 						require.resolve('@infinum/docusaurus-theme/dist/style.css'),
 					],
 				},
+				//todo-fwh-博客设置
 				blog: {
 					blogTitle: 'Tutorials and articles about Eightshift development kit',
 					blogDescription: 'Tutorials and articles about Eightshift development kit',
@@ -159,15 +166,21 @@ module.exports = {
 			}, 
 		],
 	],
+	// todo-fwh-关键词定制
 	customFields: {
 		keywords: [
-			'wordpress tools',
-			'development tools',
-			'wordpress project',
-			'Gutenberg blocks',
-			'development kit',
-			'wordpress kit',
-			'devkit'
+			'ai gpt god',
+			'AI GPT God',
+			'AI GPT',
+			'AI God',
+			'GPT God',
+			'god mode ai auto gpt',
+			'god mode ai gpt',
+			'god mode auto gpt',
+			'god mode gpt',
+			'god gpt',
+			'chat gpt ai login',
+			'chat gpt ai'
 		],
 		image: 'img-why-boilerplate@2x.png',
 	}

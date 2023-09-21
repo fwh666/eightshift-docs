@@ -4,6 +4,12 @@ ruzevic:
   url: https://github.com/iruzevic
   image_url: https://avatars.githubusercontent.com/u/23283324?v=4
 
+marvin:
+  name: Marvin Horka
+  title: AI Engineer
+  url: https://github.com/MarvinLuck
+  image_url: https://avatars.githubusercontent.com/u/143054697?v=4
+
 volf:
   name: Karlo Volf
   title: WordPress Engineer
@@ -46,7 +52,7 @@ ivanac:
   url: https://github.com/simun-ivanac
   image_url: https://avatars.githubusercontent.com/u/19992824?v=4
 
-obradovic:
+iobrado:
   name: Igor Obradović
   title: WordPress Engineer
   url: https://github.com/iobrado

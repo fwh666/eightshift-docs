@@ -1,3 +1,9 @@
+# 修改备注：
+1. 主题是对方自定义好的，有许多对方的标识。Footer需要重写才能实现
+2. LOGO的大小也需要重新写主题样式才能适配
+3. 注意增删文档时候，需要修改sidebars.js文件才可以
+4. 
+
 ![image](https://repository-images.githubusercontent.com/236449101/e89c31b2-a180-4258-9f67-608b4050c484)
 
 [![GitHub tag](https://img.shields.io/github/tag/infinum/eightshift-docs.svg?style=for-the-badge)](https://github.com/infinum/eightshift-docs)
@@ -24,10 +30,3 @@ Deployment is done through GitHub Actions by pushing the code to the main branch
 ## Who do I talk to?
 
 If you have any questions or problems, please [open an issue](https://github.com/infinum/eightshift-docs/issues) on github and we will do our best to give you a timely answer.
-
-## Maintainers
-Eightshift Docs is maintained and sponsored by
-[Eightshift](https://eightshift.com) and [Infinum](https://infinum.com).
-
-## License
-Eightshift Docs &copy;2021 [Eightshift](https://eightshift.com) and [Infinum](https://infinum.com). It is free software, and may be redistributed under the terms specified in the LICENSE file.

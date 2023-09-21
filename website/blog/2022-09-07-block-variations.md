@@ -2,7 +2,7 @@
 title: Block Variations
 description: Intro to block variations and examples of how to use them
 slug: block-variations
-authors: obradovic
+authors: marvin
 date: 2022-09-07
 tags: [eightshift, boilerplate, block, variations]
 hide_table_of_contents: false

@@ -2,7 +2,7 @@
 title: Using multiple same components
 description: Explains how to use multiple same components inside
 slug: multiple-same-components
-authors: obradovic
+authors: marvin
 
 date: 2023-06-12
 tags: [eightshift, boilerplate, components, blocks]

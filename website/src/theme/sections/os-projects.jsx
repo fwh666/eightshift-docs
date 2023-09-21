@@ -10,43 +10,43 @@ export const EsOpenSource = (props) => {
 			cards={[
 				{
 					icon: osProjectIcons.boilerplate,
-					text: 'Eightshift Boilerplate',
-					url: 'https://github.com/infinum/eightshift-boilerplate'
+					text: 'AI GPT God Boilerplate',
+					url: 'https://github.com/marvin/eightshift-boilerplate'
 				},
 				{
 					icon: osProjectIcons.boilerplate,
-					text: 'Eightshift Boilerplate Plugin',
-					url: 'https://github.com/infinum/eightshift-boilerplate-plugin'
+					text: 'AI GPT God Boilerplate Plugin',
+					url: 'https://github.com/marvin/eightshift-boilerplate-plugin'
 				},
 				{
 					icon: osProjectIcons.eightshiftLibs1,
-					text: 'Eightshift Libs',
-					url: 'https://github.com/infinum/eightshift-libs'
+					text: 'AI GPT God Libs',
+					url: 'https://github.com/marvin/eightshift-libs'
 				},
 				{
 					icon: osProjectIcons.eightshiftFrontendLibs,
-					text: 'Eightshift Frontend Libs',
-					url: 'https://github.com/infinum/eightshift-frontend-libs'
+					text: 'AI GPT God Frontend Libs',
+					url: 'https://github.com/marvin/eightshift-frontend-libs'
 				},
 				{
 					icon: osProjectIcons.eightshiftForms,
-					text: 'Eightshift Forms',
-					url: 'https://github.com/infinum/eightshift-forms'
+					text: 'AI GPT God Forms',
+					url: 'https://github.com/marvin/eightshift-forms'
 				},
 				{
 					icon: osProjectIcons.eightshiftDocs,
-					text: 'Eightshift Docs',
-					url: 'https://github.com/infinum/eightshift-docs'
+					text: 'AI GPT God Docs',
+					url: 'https://github.com/marvin/eightshift-docs'
 				},
 				{
 					icon: osProjectIcons.storybook,
-					text: 'Eightshift Storybook',
-					url: 'https://github.com/infinum/eightshift-storybook'
+					text: 'AI GPT God Storybook',
+					url: 'https://github.com/marvin/eightshift-storybook'
 				},
 				{
 					icon: osProjectIcons.eightshiftCodingStandard,
-					text: 'Eightshift Coding Standards for WordPress',
-					url: 'https://github.com/infinum/eightshift-coding-standards'
+					text: 'AI GPT God Coding Standards for WordPress',
+					url: 'https://github.com/marvin/eightshift-coding-standards'
 				},
 			]}
 		/>
