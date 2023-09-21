@@ -107,9 +107,9 @@ module.exports = {
 		},
 		// todo-fwh-申请账号搜索
 		algolia: {
-			appId: 'CWB1S6U3C4',
-			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-			indexName: 'infinum_eightshift',
+			appId: 'OQA7WC0WEX',
+			apiKey: '7d88114eccd3aa80fabe1d644d3e06ea',
+			indexName: 'index_aigptgod',
 		},
 		prism: {
 			theme: codeTheme,
