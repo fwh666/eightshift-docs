@@ -15,7 +15,13 @@ module.exports = {
 			src: 'https://buttons.github.io/buttons.js',
 			async: true,
 			defer: true,
-		}
+		},
+		//google adsense
+		{
+			src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5455845858903578',
+			async: true,
+			crossorigin: 'anonymous',
+		},
 	],
 	themeConfig: {
 		navbar: {
