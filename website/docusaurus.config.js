@@ -131,7 +131,7 @@ module.exports = {
 				},
 				// todo-fwh-谷歌统计
 				gtag: {
-					trackingID: 'GTM-P5GG5DH',
+					trackingID: 'G-V6Z995FS51',
 					anonymizeIP: true,
 				},
 				theme: {
@@ -142,8 +142,8 @@ module.exports = {
 				},
 				//todo-fwh-博客设置
 				blog: {
-					blogTitle: 'Tutorials and articles about Eightshift development kit',
-					blogDescription: 'Tutorials and articles about Eightshift development kit',
+					blogTitle: 'Tutorials and articles about AI GPT God',
+					blogDescription: 'Tutorials and articles about AI GPT God',
 					blogSidebarTitle: 'Latest posts',
 					showReadingTime: true,
 					postsPerPage: 9,
