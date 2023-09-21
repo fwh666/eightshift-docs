@@ -31,8 +31,6 @@ Eightshift Development Kit consists of a few separate projects. It's useful to k
 
 Eightshift Libs handles backend functionality and provides backend support for your projects. This includes abstract classes and interfaces for our core features, dependency injection, asset enqueuing, filter & actions and more.
 
-#### Eightshift Frontend Libs - [docs](eightshift-frontend-libs) | [github](https://github.com/infinum/eightshift-frontend-libs)
-
 Eightshift Frontend Libs houses our frontend code, including various helpers, JavaScript functionality, SCSS styles, and block and component defaults.
 
 #### Boilerplate
